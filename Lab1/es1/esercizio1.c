@@ -1,14 +1,12 @@
+/*Esercizio 1 laboratorio 28-09-2021 */
 #include <stdio.h>
 
 int test(int n){
     int f = 0;
-    int f0 = 0;
-    int f1 = 1;
-    while (n >= 0){
+    int f0 = 1;
+    int f1 = 0;
+    while (n >= 1){
         n--;
-        if (n=1) {
-
-        }
         f = f0 + f1;
         f0 = f1;
         f1 = f;
@@ -19,8 +17,8 @@ int test(int n){
 int main(void){
     int n;
     int q;
-
-    for(int i = 10; i >= 0; i--){
+    printf("Primo 10 numeri della sequenza di Fibonacci: ");
+    for(int i = 0; i <= 10; i++){
         q = test(i);
         printf("%d, ", q);
     }

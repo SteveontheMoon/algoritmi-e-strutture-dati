@@ -2,7 +2,7 @@
 /*Implementazione del frammento dell'esercizio 1*/
 int test(int n){
     int f = 0;
-    int f0 = 1;
+    int f0 = 0;
     int f1 = 1;
     while (n > 1){
         n--;
