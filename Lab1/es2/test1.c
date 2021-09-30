@@ -16,8 +16,10 @@ int main(){
         }
     }
     for(i = 0; i < n; i++){
-        printf(" %d \0.5t", list[i]);
+        printf(" %d \t", list[i]);
     }
     printf("\n");
+    int r = srand(24534);
+    printf("%d", r);
 return 0;
 }
