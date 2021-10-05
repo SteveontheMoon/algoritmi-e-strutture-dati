@@ -21,6 +21,5 @@ int main(){
     printf("\n");
 return 0;
 }
-/*Puoi renderlo piu veloce implementando una verifica sul controllo del valore successivo:
-se vede che ne ha 3 successivi in ordine assumi che li abbia gia swappati, rimane il 
-problema che se i 3 numeri sono stati inseriti in ordine l'algoritmo non completa l'ordinamento.*/
+
+/* Controllare se esegue un ciclio senza spostamenti, in tal caso ferma il programma. */
