@@ -1,4 +1,4 @@
-/*Esercizio 1 laboratorio 28-09-2021 */
+/*Esercizio 1 - laboratorio 28-09-2021 */
 #include <stdio.h>
 
 int test(int n){

@@ -1,4 +1,4 @@
-/*Alberto Malagamba - esercizio 2 - lezione laboratorio 1*/
+/*quickshort - test 1*/
 #include <stdio.h>
 
 void bubblesort(int[]);
